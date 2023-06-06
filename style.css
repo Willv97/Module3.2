@@ -1,0 +1,172 @@
+/* Font size */
+h1, #output {
+  font-size: 24px;
+}
+
+/* Width and height */
+#output {
+  width: 300px;
+  height: 100px;
+}
+
+/* Background color */
+#output {
+  background-color: black;
+}
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: indianred;
+}
+
+/* Links */
+a {
+  color: indianred;
+}
+html {
+  height: 100%;
+  width: 100%;
+image-rendering: auto;
+}
+body {
+    font-style: Garamond;
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+/*Change paragraph text color*/
+p {
+    align-items: center;
+    color: black;
+}
+li {
+    color: forestgreen;
+}
+footer {
+    color: forestgreen;
+}
+/*Change paragraph text color*/
+div {
+    margin-right: 2%;
+    
+}
+button {
+    position: relative;
+}
+.productImage {
+    max-width: 200px;
+    /* Image height */
+    /* max-height: 150px; */
+}
+.white {
+    width: 250px;
+    height: fit-content;
+}
+.green {
+    width: 250px;
+    height: fit-content;
+}
+/*Change size of lilac&blue shoe img */
+.lilac {
+    width: 250px;
+    height:fit-content
+}
+/*Change size of black shoe img */
+.Black {
+    width: 250px;
+    height: 250px;   
+}
+/* Style the form container */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style the text input */
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+div {
+    width: 250px;
+    height: 250px; 
+}
+.shoeItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shoeItem img {
+    max-width: 200px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.shoeItem .infoContainer {
+    position: relative;
+    z-index: 2;
+}
+/* Add animation to the submit button */
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+button[type="submit"]:active {
+  background-color: #3e8e41;
+  transform: scale(1.1);
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2;
+}
+
+th {
+  background-color: #f2f2;
+}
+
+td:nth-child(1) {
+  width: 30%;
+}
+
+td:nth-child(2) {
+  width: 40%;
+}
+
+td:nth-child(3) {
+  width: 30%;
+}
